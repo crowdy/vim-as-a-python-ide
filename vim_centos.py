@@ -1,4 +1,5 @@
-#!/usr/bin/env python3
+#!/bin/env python
+##!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
 # Copyright (c) 2015, Dan Sheffner Digital Imaging Software Soltuions, INC
@@ -34,7 +35,11 @@ import os
 import subprocess
 import sys
 import timeit
-import urllib.request
+try:
+    from urllib.request import urlretrieve
+except:
+    from urllib import urlretrieve
+
 
 # logging
 try:
@@ -122,7 +127,8 @@ class Vim(object):
                      self.dir_user + '/.vim/ftplugin/']
 
         for each in path_list:
-            os.makedirs(each, exist_ok=True)
+            #os.makedirs(each, exist_ok=True)
+            os.makedirs(each)
             logging.info("creating directory: " + each)
 
     def config(self):
@@ -131,28 +137,28 @@ class Vim(object):
                              '.vim/bundle/')
 
         # vim auto autoload file
-        urllib.request.urlretrieve('https://tpo.pe/pathogen.vim',
-                                   self.dir_user +
+        urlretrieve('https://tpo.pe/pathogen.vim',
+                    self.dir_user +
                                    '.vim/autoload/pathogen.vim')
 
         # .vimrc for your machine
-        urllib.request.urlretrieve('https://raw.githubusercontent.com/' +
-                                   'thesheff17/youtube/master/vim/vimrc',
-                                   self.dir_user + '.vimrc')
+        urlretrieve('https://raw.githubusercontent.com/' +
+                    'thesheff17/youtube/master/vim/vimrc',
+                    self.dir_user + '.vimrc')
 
         # color file
-        urllib.request.urlretrieve('https://raw.githubusercontent.com/' +
-                                   'thesheff17/youtube/master/vim/' +
-                                   'wombat256mod.vim',
-                                   self.dir_user + '.vim/colors/' +
-                                   'wombat256mod.vim')
+        urlretrieve('https://raw.githubusercontent.com/' +
+                    'thesheff17/youtube/master/vim/' +
+                    'wombat256mod.vim',
+                    self.dir_user + '.vim/colors/' +
+                    'wombat256mod.vim')
 
         # ftp plugin
-        urllib.request.urlretrieve('https://raw.githubusercontent.com/' +
-                                   'thesheff17/youtube/master/vim/' +
-                                   'python_editing.vim',
-                                   self.dir_user +
-                                   '.vim/ftplugin/python_editing.vim')
+        urlretrieve('https://raw.githubusercontent.com/' +
+                    'thesheff17/youtube/master/vim/' +
+                    'python_editing.vim',
+                    self.dir_user +
+                    '.vim/ftplugin/python_editing.vim')
 
     def fix_permissions(self):
         if 'root' not in self.dir_user:
@@ -169,9 +175,9 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     vim = Vim()
-    vim.check_root()
+    # vim.check_root()
     vim.pick_user(args.user)
-    vim.packages()
+    # vim.packages()
     vim.directories()
     vim.config()
     vim.fix_permissions()

@@ -1,0 +1,24 @@
+2017-07-11 15:38:57,587 - vim.py - directories -                            INFO - creating directory: /home/tkim/.vim/
+2017-07-11 15:38:57,587 - vim.py - directories -                            INFO - creating directory: /home/tkim/.vim/autoload/
+2017-07-11 15:38:57,587 - vim.py - directories -                            INFO - creating directory: /home/tkim//.vim/bundle/
+2017-07-11 15:38:57,587 - vim.py - directories -                            INFO - creating directory: /home/tkim//.vim/colors/
+2017-07-11 15:38:57,587 - vim.py - directories -                            INFO - creating directory: /home/tkim//.vim/ftplugin/
+2017-07-11 15:38:58,992 - vim.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/tpope/vim-sensible.git
+2017-07-11 15:39:00,845 - vim.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/kien/ctrlp.vim.git
+2017-07-11 15:39:02,917 - vim.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/scrooloose/nerdtree
+2017-07-11 15:39:05,615 - vim.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/klen/python-mode.git
+2017-07-11 15:39:07,282 - vim.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/Lokaltog/vim-powerline.git
+2017-07-11 15:39:08,768 - vim.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/jistr/vim-nerdtree-tabs.git
+2017-07-11 15:39:10,926 - vim.py - run_command -                            ERROR - Command failed: chown -H -R tkim:tkim /home/tkim/
+2017-07-11 15:40:46,089 - vim.py - directories -                            INFO - creating directory: /home/tkim/.vim/
+2017-07-11 15:40:46,090 - vim.py - directories -                            INFO - creating directory: /home/tkim/.vim/autoload/
+2017-07-11 15:40:46,090 - vim.py - directories -                            INFO - creating directory: /home/tkim//.vim/bundle/
+2017-07-11 15:40:46,090 - vim.py - directories -                            INFO - creating directory: /home/tkim//.vim/colors/
+2017-07-11 15:40:46,090 - vim.py - directories -                            INFO - creating directory: /home/tkim//.vim/ftplugin/
+2017-07-11 15:40:47,651 - vim.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/tpope/vim-sensible.git
+2017-07-11 15:40:49,529 - vim.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/kien/ctrlp.vim.git
+2017-07-11 15:40:51,572 - vim.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/scrooloose/nerdtree
+2017-07-11 15:40:54,341 - vim.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/klen/python-mode.git
+2017-07-11 15:40:55,975 - vim.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/Lokaltog/vim-powerline.git
+2017-07-11 15:40:57,463 - vim.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/jistr/vim-nerdtree-tabs.git
+2017-07-11 15:41:01,239 - vim.py - run_command -                            INFO - Command ran successfully: chown -H -R tkim:tkim /home/tkim/
