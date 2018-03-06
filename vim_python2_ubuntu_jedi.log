@@ -1,0 +1,67 @@
+2018-03-04 23:25:29,716 - vim_python2_ubuntu_jedi.py - pick_user -                            ERROR - the home directory for this user doesn't exist.
+2018-03-04 23:25:44,169 - vim_python2_ubuntu_jedi.py - pick_user -                            ERROR - the home directory for this user doesn't exist.
+2018-03-04 23:28:14,628 - vim_python2_ubuntu_jedi.py - pick_user -                            ERROR - the home directory for this user doesn't exist.
+2018-03-04 23:28:47,726 - vim_python2_ubuntu_jedi.py - pick_user -                            ERROR - the home directory for this user doesn't exist.
+2018-03-04 23:33:36,943 - vim_python2_ubuntu_jedi.py - pick_user -                            ERROR - the home directory for this user doesn't exist.
+2018-03-04 23:36:17,217 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack.vim/
+2018-03-04 23:36:17,218 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack.vim/autoload/
+2018-03-04 23:36:17,219 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack/.vim/bundle/
+2018-03-04 23:36:17,220 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack/.vim/colors/
+2018-03-04 23:36:17,220 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack/.vim/ftplugin/
+2018-03-04 23:36:17,236 - vim_python2_ubuntu_jedi.py - run_command -                            ERROR - Command failed: git clone https://github.com/tpope/vim-sensible.git
+2018-03-04 23:38:40,915 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack/.vim/
+2018-03-04 23:38:40,916 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack/.vim/autoload/
+2018-03-04 23:38:40,916 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack//.vim/bundle/
+2018-03-04 23:38:40,916 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack//.vim/colors/
+2018-03-04 23:38:40,916 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack//.vim/ftplugin/
+2018-03-04 23:38:43,529 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/tpope/vim-sensible.git
+2018-03-04 23:38:45,187 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/kien/ctrlp.vim.git
+2018-03-04 23:38:47,034 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/scrooloose/nerdtree
+2018-03-04 23:38:48,632 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/davidhalter/jedi-vim.git
+2018-03-04 23:38:50,089 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/Lokaltog/vim-powerline.git
+2018-03-04 23:38:51,394 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/jistr/vim-nerdtree-tabs.git
+2018-03-04 23:40:51,510 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack/.vim/
+2018-03-04 23:40:51,510 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack/.vim/autoload/
+2018-03-04 23:40:51,510 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack//.vim/bundle/
+2018-03-04 23:40:51,510 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack//.vim/colors/
+2018-03-04 23:40:51,510 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack//.vim/ftplugin/
+2018-03-04 23:40:52,699 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/tpope/vim-sensible.git
+2018-03-04 23:40:54,378 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/kien/ctrlp.vim.git
+2018-03-04 23:40:56,210 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/scrooloose/nerdtree
+2018-03-04 23:40:57,788 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/davidhalter/jedi-vim.git
+2018-03-04 23:40:59,223 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/Lokaltog/vim-powerline.git
+2018-03-04 23:41:00,519 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/jistr/vim-nerdtree-tabs.git
+2018-03-04 23:43:12,558 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack/.vim/
+2018-03-04 23:43:12,558 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack/.vim/autoload/
+2018-03-04 23:43:12,558 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack//.vim/bundle/
+2018-03-04 23:43:12,558 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack//.vim/colors/
+2018-03-04 23:43:12,558 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack//.vim/ftplugin/
+2018-03-04 23:43:13,728 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/tpope/vim-sensible.git
+2018-03-04 23:43:15,403 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/kien/ctrlp.vim.git
+2018-03-04 23:43:17,341 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/scrooloose/nerdtree
+2018-03-04 23:43:18,963 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/davidhalter/jedi-vim.git
+2018-03-04 23:43:20,412 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/Lokaltog/vim-powerline.git
+2018-03-04 23:43:21,727 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/jistr/vim-nerdtree-tabs.git
+2018-03-04 23:44:12,786 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack/.vim/
+2018-03-04 23:44:12,787 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack/.vim/autoload/
+2018-03-04 23:44:12,787 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack//.vim/bundle/
+2018-03-04 23:44:12,787 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack//.vim/colors/
+2018-03-04 23:44:12,787 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack//.vim/ftplugin/
+2018-03-04 23:44:13,978 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/tpope/vim-sensible.git
+2018-03-04 23:44:15,634 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/kien/ctrlp.vim.git
+2018-03-04 23:44:17,479 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/scrooloose/nerdtree
+2018-03-04 23:44:19,072 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/davidhalter/jedi-vim.git
+2018-03-04 23:44:20,513 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/Lokaltog/vim-powerline.git
+2018-03-04 23:44:21,832 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/jistr/vim-nerdtree-tabs.git
+2018-03-04 23:44:44,670 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack/.vim/
+2018-03-04 23:44:44,670 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack/.vim/autoload/
+2018-03-04 23:44:44,670 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack//.vim/bundle/
+2018-03-04 23:44:44,670 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack//.vim/colors/
+2018-03-04 23:44:44,670 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /opt/stack//.vim/ftplugin/
+2018-03-04 23:44:45,860 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/tpope/vim-sensible.git
+2018-03-04 23:44:47,526 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/kien/ctrlp.vim.git
+2018-03-04 23:44:49,467 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/scrooloose/nerdtree
+2018-03-04 23:44:51,079 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/davidhalter/jedi-vim.git
+2018-03-04 23:44:52,533 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/Lokaltog/vim-powerline.git
+2018-03-04 23:44:53,751 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/jistr/vim-nerdtree-tabs.git
+2018-03-04 23:45:09,014 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: chown -H -R stack:stack /opt/stack/

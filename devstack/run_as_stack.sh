@@ -1,3 +1,4 @@
+cd
 git clone https://git.openstack.org/openstack-dev/devstack
 cd devstack
 cat > /opt/stack/local.conf <<EOL
