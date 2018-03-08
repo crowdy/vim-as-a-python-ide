@@ -1,5 +1,5 @@
 git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'"
-git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'"
+#git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'"
 
 is_in_git_repo() {
   git rev-parse HEAD > /dev/null 2>&1
@@ -40,9 +40,15 @@ gco0() {
     git checkout `git log --pretty=oneline | tail -1 | sed 's/ .*$//'`
 }
 
+gcon() {
+    git checkout `git log --reverse --ancestry-path HEAD..master | head -n 1 | cut -d \  -f 2`
+}
+
 bind '"\er": redraw-current-line'
 bind '"\C-g\C-f": "$(gf)\e\C-e\er"'
 bind '"\C-g\C-b": "$(gb)\e\C-e\er"'
 bind '"\C-g\C-t": "$(gt)\e\C-e\er"'
 bind '"\C-g\C-h": "$(gh)\e\C-e\er"'
 bind '"\C-g\C-r": "$(gr)\e\C-e\er"'
+
+export GIT_EDITOR=vim
