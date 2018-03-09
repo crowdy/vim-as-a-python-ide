@@ -105,8 +105,8 @@ class Vim(object):
 
     def pick_user(self, username, groupname, path):
         self.username = username
-	self.groupname = groupname
-	self.path = path 
+        self.groupname = groupname
+        self.path = path
 
         if self.username == 'root':
             self.dir_user = '/root/'

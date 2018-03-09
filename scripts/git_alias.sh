@@ -44,6 +44,10 @@ gcon() {
     git checkout `git log --reverse --ancestry-path HEAD..master | head -n 1 | cut -d \  -f 2`
 }
 
+gcop() {
+    git checkout HEAD^
+}
+
 bind '"\er": redraw-current-line'
 bind '"\C-g\C-f": "$(gf)\e\C-e\er"'
 bind '"\C-g\C-b": "$(gb)\e\C-e\er"'

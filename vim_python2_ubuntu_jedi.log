@@ -65,3 +65,14 @@
 2018-03-04 23:44:52,533 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/Lokaltog/vim-powerline.git
 2018-03-04 23:44:53,751 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/jistr/vim-nerdtree-tabs.git
 2018-03-04 23:45:09,014 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: chown -H -R stack:stack /opt/stack/
+2018-03-09 08:54:08,217 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /root/.vim/
+2018-03-09 08:54:08,232 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /root/.vim/autoload/
+2018-03-09 08:54:08,232 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /root//.vim/bundle/
+2018-03-09 08:54:08,232 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /root//.vim/colors/
+2018-03-09 08:54:08,232 - vim_python2_ubuntu_jedi.py - directories -                            INFO - creating directory: /root//.vim/ftplugin/
+2018-03-09 08:54:09,748 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/tpope/vim-sensible.git
+2018-03-09 08:54:13,819 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/kien/ctrlp.vim.git
+2018-03-09 08:54:18,307 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/scrooloose/nerdtree
+2018-03-09 08:54:22,119 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/davidhalter/jedi-vim.git
+2018-03-09 08:54:24,404 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/Lokaltog/vim-powerline.git
+2018-03-09 08:54:25,684 - vim_python2_ubuntu_jedi.py - run_command -                            INFO - Command ran successfully: git clone https://github.com/jistr/vim-nerdtree-tabs.git

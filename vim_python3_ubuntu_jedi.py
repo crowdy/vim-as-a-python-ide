@@ -35,7 +35,8 @@ import subprocess
 import sys
 import timeit
 #import urllib.request
-import urllib
+#import urllib as you're usi8ng python3, there s no urllib
+import urllib.request
 
 # logging
 try:
@@ -105,7 +106,7 @@ class Vim(object):
 
     def pick_user(self, username, groupname):
         self.username = username
-	self.groupname = groupname
+        self.groupname = groupname
 
         if self.username == 'root':
             self.dir_user = '/root/'
@@ -134,24 +135,24 @@ class Vim(object):
                              '.vim/bundle/')
 
         # vim auto autoload file
-        urllib.urlretrieve('https://tpo.pe/pathogen.vim',
+        urllib.request.urlretrieve('https://tpo.pe/pathogen.vim',
                                    self.dir_user +
                                    '.vim/autoload/pathogen.vim')
 
         # .vimrc for your machine
-        urllib.urlretrieve('https://raw.githubusercontent.com/' +
+        urllib.request.urlretrieve('https://raw.githubusercontent.com/' +
                                    'thesheff17/youtube/master/vim/vimrc',
                                    self.dir_user + '.vimrc')
 
         # color file
-        urllib.urlretrieve('https://raw.githubusercontent.com/' +
+        urllib.request.urlretrieve('https://raw.githubusercontent.com/' +
                                    'thesheff17/youtube/master/vim/' +
                                    'wombat256mod.vim',
                                    self.dir_user + '.vim/colors/' +
                                    'wombat256mod.vim')
 
         # ftp plugin
-        urllib.urlretrieve('https://raw.githubusercontent.com/' +
+        urllib.request.urlretrieve('https://raw.githubusercontent.com/' +
                                    'thesheff17/youtube/master/vim/' +
                                    'python_editing.vim',
                                    self.dir_user +
