@@ -158,6 +158,8 @@ class Vim(object):
                                    self.dir_user +
                                    '.vim/ftplugin/python_editing.vim')
 
+        # self.run_command("git submodule update --init --recursive --remote")
+
     def fix_permissions(self):
         if 'root' not in self.dir_user:
             self.run_command('chown -H -R ' + self.username + ':' +
@@ -184,3 +186,4 @@ if __name__ == "__main__":
     stop = timeit.default_timer()
     print (str(stop - start) + " seconds to complete...")
     print ("vim.py completed...")
+    print ("you might need to execute git submodule update --init --recursive --remote")
